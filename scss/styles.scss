@@ -1,6 +1,16 @@
 .catname {
-    background: grey;
+    background: rgb(187, 178, 178);
+    margin-right: 87%;
+
     label.mylabel {
-        color: red;
+        color: rgb(43, 38, 38);
+    }
+}
+
+.index {
+    p.text /**:first-of-type**/ {
+        margin-bottom: 0px;
+        margin-right: 10px;
+        display: inline-block;
     }
 }
