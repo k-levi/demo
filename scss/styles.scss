@@ -13,4 +13,23 @@
         margin-right: 10px;
         display: inline-block;
     }
+
+    .middle-div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 1px solid red;
+    }
+    .middle-flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid red;
+    }
+    .middle-grid{
+        display: grid;
+        place-items: center;
+        border: 1px solid red;
+    }
 }

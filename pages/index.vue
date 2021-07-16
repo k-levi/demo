@@ -6,6 +6,9 @@
     <button v-on:click="likeThis">Like</button>
 
     <p>The page has {{ like }}<span>&#128077;</span></p>
+    <div class="middel-div">This div is in the middle</div>
+    <div class="middel-flex">This flex is in the middle</div>
+    <div class="middel-grid">This grid is in the middle</div>
   </div>
 </template>
 
