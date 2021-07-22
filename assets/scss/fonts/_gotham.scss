@@ -1,0 +1,29 @@
+/*
+Fonts taken from https://www.futuribles.com/static/fonts/gotham
+*/
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('/fonts/gotham/gotham-medium.eot');
+    src: url('/fonts/gotham/gotham-medium.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/gotham/gotham-medium.woff2') format('woff2'),
+         url('/fonts/gotham/gotham-medium.woff') format('woff'),
+         url('/fonts/gotham/gotham-medium.ttf') format('truetype'),
+         url('/fonts/gotham/gotham-medium.svg#gotham_mediumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url('/fonts/gotham/gotham-medium.eot');
+    src: url('/fonts/gotham/gotham-medium.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/gotham/gotham-medium.woff2') format('woff2'),
+         url('/fonts/gotham/gotham-medium.woff') format('woff'),
+         url('/fonts/gotham/gotham-medium.ttf') format('truetype'),
+         url('/fonts/gotham/gotham-medium.svg#gotham_mediumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
