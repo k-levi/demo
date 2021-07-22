@@ -1,14 +1,34 @@
 <template>
   <div class="index">
-    <topnav />
+    <header>
+      <topnav />
+    </header>
 
-    <p class="text">Drop some <span>&#128077;</span></p>
-    <button v-on:click="likeThis">Like</button>
-
-    <p>The page has {{ like }}<span>&#128077;</span></p>
-    <div class="middel-div">This div is in the middle</div>
-    <div class="middel-flex">This flex is in the middle</div>
-    <div class="middel-grid">This grid is in the middle</div>
+    <div
+      class="middel-div"
+      style="
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      "
+    >
+      <p class="text">Drop some <span>&#128077;</span></p>
+      <button v-on:click="likeThis">Like</button>
+    </div>
+    <div
+      class="middel-div"
+      style="
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 50px;
+        font-size: 18px;
+      "
+    >
+      <p>The page has {{ like }}<span>&#128077;</span></p>
+    </div>
   </div>
 </template>
 
